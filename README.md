@@ -12,7 +12,7 @@ This project includes a homepage with blog previews and links to full individual
 - 3 individual blog post pages
 - Accessible and mobile-friendly by default
 
-## 🗂️ Files
+## 🗂️ Files 
 
 - `index.html` – Blog landing page with 3 article previews and "Read more" links
 - `blog-post1.html` – Full post: *The Beauty of Starting Small*
