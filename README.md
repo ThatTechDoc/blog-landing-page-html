@@ -1,16 +1,32 @@
-# blog-landing-page-html
+# blog-landing-page
 
-# Blog Landing Page (HTML Only)
+# 🌿 Reflections & Insights - A minimalist Blog
 
-A clean, minimalist blog landing page built with semantic HTML5.  
+
+Welcome to **Reflections & Insights**, a pure HTML blog enhanced with clean, responsive CSS styling. This project demonstrates semantic HTML5 structure, minimalist design, and meaningful content presentation without the use of JavaScript yet.
+ 
 This project includes a homepage with blog previews and links to full individual posts.
 
 ## 🚀 Features
 
-- Pure HTML (no CSS or JavaScript)
+- Pure HTML & CSS (no frameworks or libraries)
 - Semantic structure using `<header>`, `<main>`, `<section>`, `<article>`, `<footer>`, and `<time>`
-- 3 individual blog post pages
+- 3 individual blog post pages (each includes title, date, preview, and "read more" link)
+- Beautiful preview images for each blog entry
 - Accessible and mobile-friendly by default
+- Clean folder structure
+
+
+## 🖼 Blog Previews
+
+Each blog post on the landing page includes:
+
+- A **featured image** (hosted locally in `/asset`)
+- A **title**
+- A **published date**
+- A **short preview paragraph**
+- A link to the full blog post
+
 
 ## 🗂️ Files 
 
