@@ -56,3 +56,61 @@
     padding: var(--spacing-sm);
   }
   
+/* ====================
+   BLOG CARD STYLES
+   ==================== */
+  article {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: var(--spacing-sm);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  article:hover,
+  article:focus-within {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  article img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  h1, h2 {
+    margin-bottom: var(--spacing-xs);
+  }
+  
+  time {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--color-muted);
+    margin-bottom: var(--spacing-xs);
+  }
+  
+  p {
+    margin-bottom: var(--spacing-xs);
+  }
+  
+  a {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+  }
+  
+  a:hover,
+  a:focus {
+    color: var(--color-accent-hover);
+    outline: none;
+  }
+  
+  a:focus {
+    background-color: var(--color-focus);
+    color: white;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+  }
+
